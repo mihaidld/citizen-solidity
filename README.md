@@ -27,7 +27,7 @@ Les administrateurs votent pour effectuer les tâches d'administration comme uti
 En cas de mauvaise gestion ils pourront passer devant un tribunal populaire.
 Une mauvaise gestion consiste en un `crime contre la nation`.  
 Les administrateurs sont élus par les citoyens. L'élection d'un administrateur dure 1 semaine.  
-Ils sont élus pour une durée de 8 semaines.
+Ils sont élus pour une durée de 8 semaines. Pour assurer la continuite du service la periode des elections a lieu pendant la derniere semaine du mandat des administrateurs actuels.
 Les administrateurs sont des citoyens qui peuvent effectuer des tâches d'administration.
 
 ## **Peines**
