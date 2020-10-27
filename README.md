@@ -11,7 +11,7 @@ Un token le `CITIZEN` (symbole `CTZ`, 18 decimales) servira de monnaie et de poi
 100 `CITIZEN` sont automatiquement attribués à un particulier qui souhaite devenir citoyen.
 Lorsqu'un citoyen ne possède plus de `CITIZEN` (au moins une unite de CTZ) il ne peut plus voter.
 L'entité qui sera l'Etat, (l'adresse d'un smart contract), devra posséder 100% du `cap` de `CITIZEN`.
-L'État a 1 million de `CTZ` au deployement du contrat `CitizenERC20`, mais garde la possibilite de `burn` des `CTZ` dans l'avenir (ne peut pas par contre `mint` pour que le `totalSupply` of `CTZ` ne depasse pas le cap de 1 million).
+L'État a 1 million de `CTZ` au deployement du contrat `CitizenERC20`, mais garde la possibilite de `burn` et `mint` des `CTZ` dans l'avenir (sans que le `totalSupply` of `CTZ` ne depasse pas le cap de 1 million).
 
 ## **Entreprises**
 
@@ -24,7 +24,6 @@ Ces entreprises devront s'enregistrer auprès de l'Etat, et cet enregistrement d
 Des administrateurs, qui forment le conseil des sages, pourront participer aux tâches de gouvernance et d'administration de l'Etat pour cela ils devront mettre en dépôt 100 `CITIZEN`.
 Ce dépôt sera la garantie qu'ils feront correctement leur travail d'administrateur.
 Les administrateurs votent pour effectuer les tâches d'administration comme utiliser les fonds des impôts récoltés, valider l'enregistrement d'une entreprise ou décider de donner des peines aux citoyens.  
-En cas de mauvaise gestion ils pourront passer devant un tribunal populaire.
 Une mauvaise gestion consiste en un `crime contre la nation`.  
 Les administrateurs sont élus par les citoyens. L'élection d'un administrateur dure 1 semaine.  
 Ils sont élus pour une durée de 8 semaines. Pour assurer la continuite du service la periode des elections a lieu pendant la derniere semaine du mandat des administrateurs actuels.
