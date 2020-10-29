@@ -3,7 +3,7 @@
 Créer une suite de smart contracts qui géreront un Etat et ses citoyens :
 
 - _CitizenERC20.sol_ gere le token;
-- _State.sol_ gere les affaires d'Etat.
+- _Government.sol_ gere les affaires d'Etat.
 
 ## **le token `CITIZEN`**
 
@@ -17,12 +17,12 @@ L'État a 1 million de `CTZ` au deployement du contrat `CitizenERC20`, mais gard
 
 Les entreprises peuvent verser des salaires en `CITIZEN` aux salariés citoyens.  
 Ces entreprises devront s'enregistrer auprès de l'Etat, et cet enregistrement devra être validé par le conseil des sages.
-5000 `CITIZEN` sont automatiquement attribués à une entreprise qui s'enregistre dans notre Etat.
+Les entreprise peuvent acheter des `CTZ` de l'Etat.
 
 ## **Administrateurs: conseil des sages**
 
-Des administrateurs, qui forment le conseil des sages, pourront participer aux tâches de gouvernance et d'administration de l'Etat pour cela ils devront mettre en dépôt 100 `CITIZEN`.
-Ce dépôt sera la garantie qu'ils feront correctement leur travail d'administrateur.
+Des administrateurs, qui forment le conseil des sages, pourront participer aux tâches de gouvernance et d'administration de l'Etat pour cela ils devront prouver qu'ils possedent plus de 100 `CITIZEN`.
+Ce sera la garantie qu'ils feront correctement leur travail d'administrateur.
 Les administrateurs votent pour effectuer les tâches d'administration comme utiliser les fonds des impôts récoltés, valider l'enregistrement d'une entreprise ou décider de donner des peines aux citoyens.  
 Une mauvaise gestion consiste en un `crime contre la nation`.  
 Les administrateurs sont élus par les citoyens. L'élection d'un administrateur dure 1 semaine.  
